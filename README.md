@@ -121,7 +121,7 @@ for /L %%i in (1,1,10) do curl -s http://localhost:5000/api/admin
 
 ## Stopping & Cleaning Up
 
-To stop all running containers and clear environment resources:
+To stop all running containers and clear environment resources we need to run this:
 ```bash
 docker-compose down
 ```
