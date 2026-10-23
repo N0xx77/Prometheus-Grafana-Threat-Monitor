@@ -6,7 +6,7 @@ This system instruments custom application-level security metrics-such as brute-
 
 ---
 
-## ?? System Architecture & Data Flow
+## System Architecture & Data Flow
 
 ```text
 +-------------------------------------------------------------------------------+
@@ -29,7 +29,7 @@ This system instruments custom application-level security metrics-such as brute-
 
 ---
 
-## ??? Prerequisites & Installation
+## Prerequisites & Installation
 
 Ensure you have the following installed on your system:
 * **Docker Desktop** (Windows / macOS / Linux)
@@ -38,7 +38,7 @@ Ensure you have the following installed on your system:
 
 ---
 
-## ?? Project Directory Structure
+## Project Directory Structure
 
 Ensure your project folder is structured as follows:
 
@@ -53,7 +53,7 @@ README.md
 
 ---
 
-## ?? Step-by-Step Execution Guide
+## Step-by-Step Execution Guide
 
 ### Step 1: Open Project Directory
 Navigate into your project directory in your terminal:
@@ -80,7 +80,7 @@ docker ps
 
 ---
 
-## ? Attack Simulation & Threat Generation
+## Attack Simulation & Threat Generation
 
 Run any of the following methods to generate simulated malicious traffic against the API:
 
@@ -104,7 +104,7 @@ for /L %%i in (1,1,10) do curl -s http://localhost:5000/api/admin
 
 ---
 
-## ?? Grafana Security Dashboard Configuration
+## Grafana Security Dashboard Configuration
 
 1. Log into Grafana at **`http://localhost:3000`** (User: `admin` | Password: `admin`).
 2. Navigate to **Connections > Data Sources > Add Prometheus**.
@@ -119,7 +119,7 @@ for /L %%i in (1,1,10) do curl -s http://localhost:5000/api/admin
 
 ---
 
-## ?? Stopping & Cleaning Up
+## Stopping & Cleaning Up
 
 To stop all running containers and clear environment resources:
 ```bash
